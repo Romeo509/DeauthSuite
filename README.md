@@ -37,12 +37,8 @@
      python jammer.py
     ```
 2. The tool will display a menu with the following options:
-  - **Start Monitor Mode**: Turns on monitor mode on your wireless interface.
-  - **Scan for Networks**: Scans for nearby networks.
-  - **Target a Network**: Focuses on a specific network for further attacks.
-  - **Perform Deauthentication Attack:** Performs a deauthentication attack on 
-   the targeted network and device (optional).
-  - **Stop Monitor Mode**: Stops monitor mode.
+  ![DeauthSuite Logo](img0.png)
+
 
 ## **Important Notes*
 - **Monitor Mode**: Make sure your wireless network interface supports monitor mode (typically requires a compatible Wi-Fi adapter).
