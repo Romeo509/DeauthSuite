@@ -22,3 +22,29 @@
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/DeauthSuite.git
+   ```
+
+2.  Navigate to the project directory:
+    ```bash
+     cd DeauthSuite
+    ```
+3.  Make sure you have the necessary permissions to run network monitoring 
+    commands.
+
+ ## **Usage*
+1. Run the script:
+   ```bash
+     python jammer.py
+    ```
+2. The tool will display a menu with the following options:
+   **Start Monitor Mode:** Turns on monitor mode on your wireless interface.
+   **Scan for Networks:** Scans for nearby networks.
+   **Target a Network:** Focuses on a specific network for further attacks.
+   **Perform Deauthentication Attack:** Performs a deauthentication attack on 
+   the targeted network and device (optional).
+   **Stop Monitor Mode:** Stops monitor mode.
+
+## **Important Notes*
+**Monitor Mode:** Make sure your wireless network interface supports monitor mode (typically requires a compatible Wi-Fi adapter).
+**Deauthentication Attack:** This tool will send deauthentication packets to disconnect devices from the network. Be sure to use it only on networks you own or have explicit permission to test.
+**Responsibility:** This tool is for educational and penetration testing purposes only. Unauthorized use can result in legal consequences. Always seek permission before using this tool on any network.
